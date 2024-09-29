@@ -1,0 +1,30 @@
+h1{
+    color:royalblue
+}
+
+p{
+    font-size: 12px;
+}
+
+.highlighted{
+    background-color:bisque
+}
+
+#main-title{
+    color:pink
+}
+
+#special-paragraph{
+    font-style: italic;
+}
+
+ul{
+    background-color:rgb(10, 19, 86);
+}
+li{
+    list-style-type: circle;
+    color: rgb(10, 19, 86);
+}
+div{
+    background-color: darkcyan;
+}

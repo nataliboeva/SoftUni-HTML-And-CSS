@@ -1,0 +1,36 @@
+
+header nav ul li a {
+    color: darkblue;
+    text-decoration: none;
+}
+nav ul li:first-child{
+    font-weight: bold;
+}
+nav ul li:last-child{
+    font-style: italic;
+}
+
+.first-service{
+    background-color: lightblue;
+}
+.second-service{
+    background-color: lightblue;
+}
+section.highlighted h2#service-title::before{
+    content: ">> ";
+    font-family: 'Franklin Gothic Medium';
+    color: darkred;
+
+}
+
+section.highlighted h2#service-title::after{
+    content: "<< ";
+    font-family: 'Franklin Gothic Medium';
+    color: darkred;
+}
+
+img{
+    border-width: 0.3cm;
+    border-style:solid;
+    border-color: red;
+}

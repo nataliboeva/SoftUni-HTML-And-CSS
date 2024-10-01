@@ -19,11 +19,11 @@ p{
 }
 
 ul{
-    background-color:rgb(10, 19, 86);
+    background-color:rgb(118, 130, 216);
 }
 li{
     list-style-type: circle;
-    color: rgb(10, 19, 86);
+    color: rgb(0, 0, 0);
 }
 div{
     background-color: darkcyan;

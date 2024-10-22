@@ -9,7 +9,7 @@ body {
 }
 
 .section-banner{
-    background-image: url("images/image1.jpg");
+    background-image: url("image1.jpg");
     min-height: max(30vh, 650px);
     position: relative;
     margin: 0 auto;

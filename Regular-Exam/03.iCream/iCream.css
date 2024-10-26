@@ -1,0 +1,279 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Poppins;
+}
+ 
+main {
+    display: flex;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+ 
+header {
+    background-color: #f195b2;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+ 
+.row {
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+ 
+.separator {
+    background-color: white;
+    height: 15px;
+    width: 1px;
+}
+ 
+nav {
+    background-color: #ffffff;
+    display: flex;
+    width: 900px;
+    height: 70px;
+    border-radius: 100px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 0 80px 0 80px;
+    position: absolute;
+    top: 86px;
+}
+ 
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+ 
+nav h1 {
+    color: #f195b2;
+    font-size: 3rem;
+}
+ 
+.blue-i {
+    color: #62c3e7;
+}
+ 
+.header-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.404), 
+        rgba(0, 0, 0, 0.404)
+      ),
+    url(images/carousel-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    color: white;
+}
+ 
+.header-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+}
+ 
+.header-container h1 {
+    font-size: 4rem;
+    width: 600px;
+}
+ 
+.header-container h3 {
+    font-size: 1.4rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+ 
+.learn-button {
+    color: white;
+    background-color: #f195b2;
+    border: none;
+    border-radius: 15px;
+    padding: 6px 15px;
+    margin-top: 10px;
+}
+ 
+.main-section {
+    width: 100%;
+    height: 700px;
+    background-color: #c8e7f8;
+    color: #555555;
+}
+ 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
+    width: 1100px;
+    gap: 10px;
+}
+ 
+.main-container h1 {
+    font-size: 2rem;
+}
+ 
+.pinkBorder{ 
+    background-color: #f195b2;
+    height: 5px;
+    width: 100px;
+}
+ 
+.outerBox img {
+    width: 300px;
+    height: 450px;
+    border-radius: 5px;
+}
+ 
+.outerBox {
+    display: flex;
+    gap: 30px;
+}
+ 
+.innerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 350px;
+    text-align: left;
+    gap: 25px;
+    padding: 30px 0 80px 0;
+}
+ 
+.innerBox p {
+    font-size: 1rem;
+    width: 100%;
+}
+ 
+.innerBox h3 {
+    width: 330px;
+}
+ 
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+ 
+.icon-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+ 
+.icon-row i{
+    color: #62c3e7;
+}
+ 
+.learn-button-blue {
+    color: white;
+    background-color: #62C3E8;
+    border: none;
+    border-radius: 15px;
+    padding: 6px 15px;
+    margin-top: 10px;
+}
+ 
+footer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+ 
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    margin: auto;
+}
+ 
+.footer h1 {
+    color: #f195b2;
+    font-size: 3rem;
+}
+ 
+.footer-icon {
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    vertical-align: middle;
+    border: 2px solid #62c3e7;
+    border-radius: 50%;
+    padding: 6px 5px 8px 5px;
+}
+ 
+.footer-icon-row {
+    display: flex;
+    color: #62c3e7;
+    gap: 6px;
+}
+ 
+.left-row {
+    display: flex;
+}
+ 
+.left-row p, h3 {
+    color: rgb(92, 92, 92);
+}
+ 
+.footer-separator {
+    background-color: #4d4f51;
+    width: 1px;
+    height: 110px;
+}
+ 
+.left-column-left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 8px;
+    padding-right: 10px;
+}
+ 
+.left-column-right {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 8px;
+    padding-left: 10px;
+}
+ 
+.pink-domain {
+    color: #f195b2;
+}

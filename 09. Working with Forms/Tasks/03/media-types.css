@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Lato", sans-serif;
+}
+
+body, input, textarea, select, option {
+    font: inherit;
+}
+body {
+    padding: 2em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+code {
+    display: block;
+    padding: 2em 2em 0.5em 2em;
+    background-color: #f0f0f0;
+    border-radius: 0.3em;
+    margin: 2em 0;
+    border: 1px solid #ccc;
+    white-space: pre;
+    overflow: auto;
+}
+form {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+label {
+    margin-right: 0.5em;
+}
+input, textarea{
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus {
+    border-color: #090;
+}
